@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  --home-page-text-color: whitesmoke;
+  --home-page-background-color: rgb(43, 43, 43);
+  --home-page-content-section-color: rgb(219, 219, 219);
+}
+
+body {
+  margin: 0px;
+}
+
+.home-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--home-page-background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.home-page .nav-bar {
+  background-color: var(--home-page-background-color);
+  height: 7vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 350px;
+  height: 110px;
+}
+
+.home-page .content {
+  background-color: white;
+  width: 100vw;
+  height: 92vh;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.home-page .content .right {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -50px;
+
+  border-radius: 50px 0px 0px 50px;
+  z-index: 0;
+}
+
+.home-page .content .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-left: 100px;
+}
+
+.home-page .content .left p {
+  font-size: 5em;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(34, 34, 34);
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  background-color: var(--home-page-content-section-color);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.first-line {
+    margin-left: -25px;
+}
+
+.second-line {
+  margin-left: -100px;
+}
+
+.third-line {
+  margin-left: -200px;
+}
+.content .sd-image {
+  height: 600px;
+  width: 1055px;
+  margin-top: -100px;
+}
+
+.content .buy {
+  height: 30px;
+  width: 250px;
+  background-color: var(--home-page-background-color);
+  color: var(--home-page-text-color);
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: -60px;
+}
+
+.content .buy:hover {
+  background-color: var(--home-page-text-color);
+  color: var(--home-page-background-color);
+}
+
+.delivery-estimate {
+  color: var(--home-page-background-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
