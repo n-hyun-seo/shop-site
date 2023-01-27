@@ -13,6 +13,7 @@ export default function Home() {
           <p className="first-line">YOUR GAMES</p>
           <p className="second-line">ARE GOING</p>
           <p className="third-line">PLACES.</p>
+          
         </div>
         <div className="right">
           <img

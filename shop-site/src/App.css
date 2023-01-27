@@ -1,22 +1,24 @@
 * {
   box-sizing: border-box;
   --home-page-text-color: whitesmoke;
-  --home-page-background-color: rgb(22, 21, 21);
+  --home-page-background-color: rgb(48, 50, 41);
   --home-page-content-section-color: rgb(233, 233, 233);
 }
 
 body {
   margin: 0px;
+
+  background-color: var(--home-page-background-color);
 }
 
 .home-page {
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   background-color: var(--home-page-background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .home-page .nav-bar {
   background-color: var(--home-page-background-color);
@@ -24,19 +26,21 @@ body {
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .logo {
   width: 350px;
   height: 110px;
+  background-color: var(--home-page-background-color);
+  margin-left: 70px;
 }
 
 .home-page .content {
   background-color: var(--home-page-content-section-color);
-  width: 100vw;
-  height: 92vh;
-  border-radius: 20px 20px 0 0;
+  width: 95vw;
+  height: 95vh;
+  border-radius: 20px 20px 20px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +67,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 100px;
-  margin-bottom: 70px;
+  margin-bottom: 120px;
 }
 
 .home-page .content .left p {
@@ -81,17 +85,17 @@ body {
 
 .first-line {
   font-size: 4em;
-  margin-left: 50px;
+  /* margin-left: 60px; */
 }
 
 .second-line {
   font-size: 4em;
-  margin-left: -170px;
+  margin-left: -60px;
 }
 
 .third-line {
   font-size: 4em;
-  margin-left: 30px;
+  margin-left: -150px;
 }
 
 .content .sd-image {
