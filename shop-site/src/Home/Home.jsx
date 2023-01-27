@@ -14,7 +14,7 @@ export default function Home() {
         <button className="text cart">Cart</button>
       </div>
       <div className="content">
-        <p className="price">Prices starting at $399.99!*</p>
+        <p className="price">Prices starting at $399.99*</p>
         <p className="price-sub-text">*Prices may vary depending on your region.</p>
         <img
           src="https://cdn.arstechnica.net/wp-content/uploads/2022/03/elden-deck.png"
